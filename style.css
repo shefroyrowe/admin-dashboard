@@ -13,7 +13,7 @@ body {
 }
 
 div {
-    border: 1px solid red;
+    border: 1px solid blue;
 }
 
 .page_wrapper {
@@ -27,8 +27,63 @@ header {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr 1fr;
     grid-column: 2 / 5;
-    height: 100px;
-    border: 1px solid blue;
+    height: 108px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+.head_left {
+    grid-column: 1 / 4;
+}
+
+.head_left .profile_header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-left: 1rem;
+    padding: 0.2rem 1rem 0;
+}
+
+.head_left .search_bar{
+   display: flex;
+   margin-left: 1rem;
+   padding: 0.7rem 1rem 1rem;
+}
+
+.head_left .search_bar>img {
+    box-shadow: none;
+    height: 22px;
+    width: 22px;
+ }
+
+.head_left .search_bar>input[type='search']{
+    width: 30rem;
+    height: 1.2rem;
+    background-color: #ddd;
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+}
+
+.head_left .profile_header>span{
+    font-weight: bold;
+    margin-left: -16.5rem;
+}
+
+.head_left .profile_header>img{
+    box-shadow: none;
+    height: 50px;
+    width: 50px;
+}
+
+.head_left .profile_header>span>p:first-child{
+    font-size: 12px;
+}
+
+.head_right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 4 / 6;
 }
 
 .sidebar {
@@ -47,11 +102,9 @@ header {
     list-style: none;
     line-height: 2;
     padding: 0.5rem 1rem 1rem;
-    border: 1px solid rgb(14, 17, 179);
 }
 
 .sidebar .side_row_2 {
-    border: 1px solid #fff;
    margin-top: -3rem;
 }
 
@@ -77,6 +130,7 @@ img {
     margin-right: 10px;
     height: 17px;
     width: 18px;
+    border-radius: 2px;
     box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
@@ -86,6 +140,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 2 / 4;
+    background-color: #ddd;
     border: 1px solid blue;
 }
 
