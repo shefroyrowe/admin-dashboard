@@ -196,6 +196,23 @@ img {
     border-left: 7px solid #801336;
 }
 
+.content_cards .cards div .card_title {
+   margin-bottom: 2px;
+   font-weight: bold;
+}
+
+.content_cards .cards div .social_icons {
+    display: flex;
+    justify-content: end;
+    margin-top: 0.5rem;
+ }
+
+ .content_cards .cards div .social_icons>img {
+    height: 25px;
+    width: 25px;
+    box-shadow: none;
+ }
+
 .side_cards {
     grid-column: 3;
     grid-row: 2 / 4;
