@@ -5,12 +5,12 @@
     border: 1px solid black;
     margin: 0;
     padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html,
 body {
     height: 100%;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: bisque;
 }
 
@@ -47,7 +47,7 @@ header {
 
 #search-bar input {
     width: 35vw;
-    height: 1.5vw;
+    height: 1.8vw;
     border-radius: 5vw;
     margin-left: 0.5vw;
 }
@@ -58,11 +58,11 @@ header {
 }
 
 #profile-name img {
-    margin-right: 1vw;
+    margin-right: 2vw;
 }
 
 #profile-name img:nth-child(2) {
-    width: 3vw;
+    width: 3.5vw;
 }
 
 #profile-name img:nth-child(2),
@@ -70,12 +70,17 @@ header {
     border-radius: 50%;
 }
 
+#search-profile {
+    margin-bottom: 1.2rem;
+}
+
 #user-name img {
     width: 5vw;
     margin-right: 0.5rem;
 }
 
-#user-name span strong {
+#user-name span strong,
+#profile-name span strong {
     font-weight: 800;
 }
 
@@ -87,8 +92,15 @@ header {
     font-size: 1.2rem;
 }
 
+/*buttons*/
 .head-btn {
-    
+    font-weight: bold;
+    color: aliceblue;
+    background-color: blue;
+    width: 6vw;
+    height: 2.5vw;
+    border-radius: 3vw;
+    margin-left: 1rem;
 }
 
 /*nav*/
