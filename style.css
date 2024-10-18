@@ -108,7 +108,54 @@ header {
     background-color: blue;
     grid-row: 1/-1;
     grid-column: 1/2;
+    padding: 1rem 1rem 1rem 0;
+    font-weight: 800;
+    color: aliceblue;
 }
+
+#nav-header,
+nav ul li  {
+    display: flex;
+    list-style: none;
+}
+
+#nav-header,
+nav ul li {
+    align-items: center;
+}
+
+#nav-header {
+    justify-content: center;
+    font-size: 2vw;
+    margin-bottom: 3.5vw;
+}
+
+#nav-header img {
+    width: 4vw;
+}
+
+#nav-header span {
+    margin-left: -1.5vw;
+}
+
+#nav-header img,
+nav ul li img {
+   margin-right: 2vw;
+}
+
+nav ul {
+    padding-left: 2.5vw;
+}
+
+nav ul li {
+    font-size: 1.3vw;
+    height: 3vw;
+}
+
+#nav-options-group1 {
+    margin-bottom: 4vw;
+}
+
 
 /*main element*/
 main {
