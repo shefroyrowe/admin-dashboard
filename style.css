@@ -175,6 +175,10 @@ main {
     margin-left: 0.5vw;
 }
 
+.card-1 {
+    margin-bottom: 0.5vw;
+}
+
 .card-2 div {
     display: flex;
     align-items: center;
@@ -191,8 +195,22 @@ main {
     margin-right: 1vw;
 }
 
-/*card topic titles*/
+/*card topic titles (projects, announcements, trending)*/
 .float-title {
     position: absolute;
-    left: 1rem;
+    top: 1rem;
+}
+
+.projects,
+.announce {
+    top: 12.7vw;
+}
+
+.announce {
+    right: 11vw;
+}
+
+.trending {
+    top: 37.7vw;
+    right: 15vw;
 }
